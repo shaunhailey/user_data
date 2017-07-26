@@ -11,7 +11,7 @@ app.set('views', './views')
 app.set('view engine', 'mst')
 
 app.get('/info/:id', (request, response) => {
-  const requestID = parseInt(request.params.id)
+  const requestId = parseInt(request.params.id)
   const foundUser = userDirectory.users.find(user => user.id === requestId)
   response.render('info', foundUser)
 })
