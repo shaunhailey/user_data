@@ -1,4 +1,5 @@
 {
+  "private": "true",
   "name": "user_data",
   "version": "1.0.0",
   "main": "main.js",
